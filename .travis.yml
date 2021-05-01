@@ -2,3 +2,10 @@ language: rust
 script:
   - cargo build --verbose --workspace
   - cargo test --verbose --workspace
+deploy:
+  provider: releases
+  api_key: "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"
+  file: "target/release/travis-test"
+  skip_cleanup: true
+  on:
+    tags: true
