@@ -1,6 +1,6 @@
 language: rust
 script:
-  - cargo build --verbose --workspace
+  - cargo build --verbose --workspace --release
   - cargo test --verbose --workspace
 deploy:
   provider: releases
