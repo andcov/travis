@@ -4,7 +4,7 @@ script:
   - cargo test --verbose --workspace
 deploy:
   provider: releases
-  api_key: "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"
+  api_key: "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"
   file: "target/release/travis-test"
   skip_cleanup: true
   on:
