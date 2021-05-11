@@ -1,5 +1,5 @@
 use travis_test::add_two;
 
 fn main() {
-    println!("{}", add_two(6));
+    println!("{}", add_two(1));
 }
