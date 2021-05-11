@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Publish binaries
-    runs-on: umacos-latest
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
