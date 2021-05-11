@@ -16,8 +16,8 @@ mod tests {
         assert_eq!(add_two(4), 6);
     }
 
-    //    #[test]
-    //    fn not_working() {
-    //        assert_eq!(add_two(4), 7);
-    //    }
+    #[test]
+    fn not_working() {
+        assert_eq!(add_two(4), 7);
+    }
 }
