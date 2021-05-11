@@ -1,5 +1,5 @@
 pub fn add_two(x: i32) -> i32 {
-    x + 3
+    x + 2
 }
 
 #[cfg(test)]
