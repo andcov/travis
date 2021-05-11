@@ -15,9 +15,4 @@ mod tests {
     fn test_add_two() {
         assert_eq!(add_two(4), 6);
     }
-
-   #[test]
-   fn not_working() {
-       assert_eq!(6, 7);
-   }
 }

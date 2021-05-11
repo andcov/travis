@@ -1,6 +1,16 @@
 use travis_test::add_two;
 
 fn main() {
-    let mut a = 4;
-    println!("{}", add_two(1));
+    let a = 4u32;
+    hello(a);
+    if a > 0 {
+	    println!("{}", add_two(1));
+	}
+}
+
+fn hello(a: u32) -> bool {
+	if a > 0 {
+		return true;
+	}
+	false
 }
